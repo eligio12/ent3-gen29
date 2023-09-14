@@ -1,0 +1,203 @@
+
+.img_header{
+    width: 100%;
+    height: 25vh;
+}
+
+.input_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+
+input{
+    width: 20vh;
+    padding: 4px 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px 0 0 4px;
+}
+
+button{
+    width: 6em;
+    background-color: #4CAF00;
+    border: none;
+    color: white;
+    padding: 0.36em;
+    padding-bottom: 0.45em;
+    border-radius: 0 4px 4px 0;
+}
+
+
+.location_box{
+    /* margin: 2em; */
+    width: 100%;
+    height: 11em;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+
+}
+.location {
+    width: 40%;
+    height: 8em;
+    border-radius: 0.7em;
+    background-color: #072226;
+    color: white;
+    
+}
+.location_name{
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    color: rgb(24, 155, 24);
+}
+
+.location_list {
+    display: flex;
+    gap: 0.7em;
+    justify-content: space-around;
+
+}
+
+.location_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location_label{
+    font-size: 0.8em;
+    color: #aaa;
+
+}
+
+.location_value{
+    font-weight: 500;
+}
+
+.residents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.resident {
+    width: 100%;
+    max-width: 250px;
+    background-color: #072226;
+    color: white;
+    border-radius: 0.7em;
+    overflow: hidden;
+    transition: transform 100ms ease;
+    margin: 1em;
+}
+
+.resident:hover {
+    transform: scale(1.03);
+}
+
+.resident_header {
+    position: relative;
+}
+
+.resident_status {
+    position: absolute;
+    top: 1em;
+    background-color: #072226;
+    width: 50%;
+    padding: 0.3em 0.7em;
+    border-radius: 0 0.4em 0.4em 0;
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+}
+
+.resident_status_circle {
+    display: block;
+    width: 14px;
+    aspect-ratio: 1;
+    background-color: #aaa;
+    border-radius: 50%;
+}
+
+.Alive {
+    background-color: green;
+}
+
+.Dead {
+    background-color: red;
+}
+
+.resident_body {
+    padding: 1.5em 1em 2.5em;
+}
+
+.resident_name {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    color: rgb(24, 155, 24);
+}
+
+
+.resident_separator {
+    margin-bottom: 0.5em;
+    border-color: grey;
+}
+
+.resident_list {
+    display: grid;
+    gap: 0.7em;
+
+}
+
+.resident_item{
+    display: flex;
+    flex-direction: column;
+}
+.resident_label{
+    font-size: 0.8em;
+    padding-left: 1em;
+    color: #aaa;
+
+}
+
+.resident_value{
+    font-weight: 500;
+}
+
+.resident_loading{
+    color: white;
+}
+
+.error{
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.loading{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 880px){
+
+    .location {
+        width: 70%;
+        
+    }
+    
+
+    
+
+}
