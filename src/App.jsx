@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className='principal'>
-      <img className='img_header' src="/public/header.jpg" alt="" />
+      <img className='img_header' src="/header.jpg" alt="Header img" />
       <div className='input_box'>
         <form onSubmit={handleSubmit}>
           <input ref={inputSearch} type="text" />
